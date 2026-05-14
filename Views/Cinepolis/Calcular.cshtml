@@ -1,0 +1,33 @@
+﻿@model IDGS904ASP.Models.Cine
+
+@{
+    ViewBag.Title = "Resultado";
+}
+
+<h2>Resultado de la compra</h2>
+
+<hr />
+
+<p>
+    Nombre:
+    @Model.Nombre
+</p>
+
+<p>
+    Cantidad de compradores:
+    @Model.CantidadCompradores
+</p>
+
+<p>
+    Cantidad de boletos:
+    @Model.CantidadBoletas
+</p>
+
+<p>
+    Total a pagar:
+    $ @Model.TotalPagar
+</p>
+
+<br />
+
+<a href="/Cinepolis">Volver</a>
